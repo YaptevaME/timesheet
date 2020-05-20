@@ -1,0 +1,169 @@
+.btn {
+    padding: 1px 22px;
+    outline: none;
+}
+
+.form-control {
+    height: 26px;
+    padding: 1px 12px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.timesheet-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 80px 10px;
+    width: 100%;
+}
+
+.timesheet {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    min-height: calc(100vh - 160px);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    padding: 10px;
+}
+
+.timesheet>* {
+    flex-basis: 100%;
+}
+
+/* .breadcrumb {
+    max-width: 1050px;
+} */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+}
+
+.job-form {
+    max-width: 400px;
+}
+
+.add-employee {
+    padding: 20px;
+}
+
+.select-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-job-wrap,
+.select-week-wrap {
+    max-width: 200px;
+    padding-right: 10px;
+}
+
+.btn-save-timesheets {
+    transition: .5s;
+    border: none;
+}
+
+.weekday-item {
+    text-align: center;
+}
+
+.weekday-item-saved {
+    border-color: green;
+}
+
+.report-list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.report-list>h3 {
+    flex-basis: 100%;
+}
+
+.report-item {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.report-item:hover {
+    transform: translateY(-5px);
+}
+
+.report {}
+
+.report-params {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.report-params-item {
+    padding: 5px;
+}
+
+.report-params-item label {
+    padding: 0 5px;
+}
+
+.report-params-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.report-params-checkbox label {
+    padding: 0 5px;
+    margin: 0;
+}
+.report-params-checkbox input[type=checkbox] {
+    zoom: 2;
+    margin: 0;
+    line-height: 0;
+}
+
+.report-btn-wrap {
+    flex-basis: 100%;
+    padding: 15px 5px 5px 10px;
+}
+
+.report-result {
+    padding: 5px;
+}
+
+.table-report thead td, .table-report tfoot td {
+    font-weight: 600;
+    font-size: 16px;
+    color: darkcyan;
+}
